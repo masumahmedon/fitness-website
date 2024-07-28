@@ -1,0 +1,70 @@
+/* responsive style start here */
+/* nav section */
+@media screen and (max-width:576px) {
+    .nav-hamburger-menu{
+      display: block;
+    }
+    .nav-menu{
+        display: none;
+    }
+/* banner section */
+.banner-container,
+.extra-mile-container, .team-container, .footer-info{
+  flex-direction: column;
+}
+.banner-title{
+  font-size: 1.90rem;
+}
+.btn-primary{
+  padding: 10px 30px;
+
+}
+.btn-secondary{
+  margin-right: -300px;
+  padding: 10px 30px;
+}
+
+/* feature section */
+.feature-types, .team-person{
+  grid-template-columns: repeat(1,1fr);
+}
+.item-description{
+  font-size: 2rem;
+}
+/* extra mail section */
+.extra-mile-container{
+  width: 390px;
+}
+
+.img-extra-mail img {
+  width: 80%;
+  margin: 0px 31px 10px;
+}
+
+.btn-extra{
+  padding:10px 56px ;
+  margin-top:0;
+
+} 
+.extra-mail-title{
+  font-size: 1.5rem;
+}
+.extra-mail-description{
+  font-size: 0.7rem;
+}
+/* team section */
+.team-person{
+  width: 330px;
+  margin: 0 auto;
+}
+   /* footer main section  */
+   .footer-info{
+    gap: 20px;
+  }
+  .link-1{
+    margin-left:0;
+  }
+  .footer{
+    text-align: left;
+  }
+}

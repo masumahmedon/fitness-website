@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=My+Soul&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+.display-hide{
+  visibility: hidden
+}
+ /* font style */
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.shape {
+    font-family: "My Soul", cursive;
+  }
+/* shared/common styles start here */
+body{
+  background-color: #16151f;
+}
+.section,.feature-types{
+  /* display: flex; */
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.flex{
+  display: flex;
+}
+.color{
+  color: #FFFFFF;
+}
+.text-primary{
+    color: #E6533C;
+}
+.btn-primary{
+  color: #FFFFFF;
+  background-color:#E6533C ;
+  font-size: 1.25rem;
+  padding: 15px 70px;
+  border-radius: 40px;
+  border: none;
+}
+.btn-secondary{
+  color: #FFFFFF;
+  background-color: transparent;
+  font-size: 1.25rem;
+  padding: 15px 40px;
+  margin-left: 10px;
+  border-radius: 40px;
+  border: 2px solid rgb(109, 96, 96);
+}
+.title{
+  color: #FFFFFF;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+.description{
+  color: #FFFFFF;
+  text-align: center;
+  padding: 15px 0;
+}
+/* shared/common styles end here */
+
+/* header section style start here */
+.brand{
+  color: #E6533C;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.nav-bar{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  max-width: 1140px;
+  margin:0 auto;
+  padding: 50px 0;
+}
+.nav-menu{
+  border: 1px solid rgb(41, 38, 38);
+  border-radius: 30px;
+  
+}
+.nav-menu button{
+  color: #FFFFFF;
+  background-color: #16151f;
+  font-size: 1.5rem;
+  padding: 10px 25px;
+  border-radius: 30px;
+  margin: 0 10px 0 0;
+  border: none;
+}
+.nav-menu button:last-child{
+  margin-right: 0;
+}
+#btn-1{
+  background-color: #E6533C;
+}
+/* extra work */
+div>img{
+  width: 20px;
+}
+.nav-hamburger-menu{
+  display: none;
+}
+/* banner section style start */
+.banner-container, .extra-mile-container{
+  display:flex ;
+}
+.banner-content{
+  width: 50%;
+}
+.banner-title{
+  color: #FFFFFF;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.banner-description{
+  color: #FFFFFF;
+  padding: 20px 0;
+}
+.banner-img img{
+  width: 100%;
+}
+/* banner section style end */
+/* header section style end */
+/* feature section style start */
+.feature-info, .team-info{
+  max-width: 540px;
+  text-align: center;
+  margin: 0 auto;
+}
+.feature-types{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.feature-card{
+  text-align: center;
+}
+.feature-card img{
+  width: 200px;
+  border-radius: 100px;
+}
+.item-description{
+  margin: 10px 5px;
+}
+/* feature section style end */
+/* extra mail section style start */
+.extra-mile-container{
+  background-color: rgb(129, 123, 115);
+  border-radius: 20px;
+}
+.content-extra-mail{
+  width: 50%;
+  padding: 50px 30px;
+}
+.extra-mail-title{
+  color: #FFFFFF;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.extra-mail-description{
+  color: #FFFFFF;
+}
+.btn-extra{
+  margin-top: 50px;
+
+}
+.img-extra-mail{
+  width: 400px;
+}
+.img-extra-mail img {
+  width: 100%;
+  height: 88%;
+  border-radius: 20px;
+  margin: 25px 80px;
+}
+/* calculator section style start */
+.Calculator-info{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 40px 40px 0;
+  gap: 199px;
+}
+/* chart section */
+.Calculator-chart{
+  width: 50%;
+}
+.Calculator-chart-title,.Calculator-BMI-title{
+  padding: 25px 5px;
+  font-size: 2rem;
+}
+table{
+  border-collapse: collapse;
+}
+th,
+td{
+  border: 1px solid;
+  padding: 20px 25px;
+}
+.Calculator-BMI{
+}
+/* form section */
+.form-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.form-field{
+  width: 48%;
+}
+.form-field-btn{
+  width:100%;
+  margin-bottom: 20px;
+}
+.form-container input,textarea,select{
+  border: 1px solid blue;
+  width: 100%;
+  height: 50px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+/* calculator section style end */
+/* extra mail section style end */
+/* team section style start */
+.team-person{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  border-radius: 20px;
+  background-color: rgb(101, 97, 127);
+  padding: 20px;
+  gap: 20px;
+}
+.person{
+  position: relative;
+}
+.position{
+  position: absolute;
+  bottom: 30px;
+  left: 25px;
+}
+.person img{
+  width:100%;
+  height: 270px;
+  border-radius: 30px;
+}
+.name-style{
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+/* team section style end */
+/* footer main section style start */
+.footer-main{
+  background-color: rgb(129, 123, 115);
+}
+.footer-info{
+  gap: 140px;
+}
+.document{
+  width: 50%;
+}
+.link-1{
+  width: 25%;
+  margin-left: 109px;
+}
+.link-2{
+  width: 25%;
+}
+ul{
+  list-style: none;
+}
+li a{
+  text-decoration: none;
+}
+/* footer main section style end */
+/* footer section style start */
+.span{
+  width: 87%;
+  height: 2px;
+  margin: 0 auto;
+  background-color: red;
+}
+.footer{
+  padding: 20px 20px;
+  text-align: center;
+  color: #463ab7;
+  background-color: rgb(129, 123, 115);
+}
+/* footer main section style end */
