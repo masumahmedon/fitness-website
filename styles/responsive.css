@@ -3,6 +3,7 @@
 @media screen and (max-width:576px) {
     .nav-hamburger-menu{
       display: block;
+      padding: 0 12px;
     }
     .nav-menu{
         display: none;

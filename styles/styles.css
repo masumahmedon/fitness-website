@@ -21,15 +21,12 @@
   }
 /* shared/common styles start here */
 body{
-  background-color: #16151f;
+  background-color: #111111;
 }
 .section,.feature-types{
   /* display: flex; */
   max-width: 1140px;
   margin: 0 auto;
-}
-.flex{
-  display: flex;
 }
 .color{
   color: #FFFFFF;
@@ -70,8 +67,8 @@ body{
 /* header section style start here */
 .brand{
   color: #E6533C;
-  font-size: 3rem;
-  font-weight: 600;
+  font-size: 2.25rem;
+  font-weight: 700;
 }
 .nav-bar{
   display: flex;
@@ -83,16 +80,18 @@ body{
 }
 .nav-menu{
   border: 1px solid rgb(41, 38, 38);
-  border-radius: 30px;
+  border-radius: 39px;
   
 }
 .nav-menu button{
   color: #FFFFFF;
-  background-color: #16151f;
-  font-size: 1.5rem;
-  padding: 10px 25px;
-  border-radius: 30px;
-  margin: 0 10px 0 0;
+  background: transparent;
+  font-size: 1.125rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  padding: 8px 20px;
+  margin-right: 20px;
+  border-radius: 46px;
   border: none;
 }
 .nav-menu button:last-child{
@@ -101,12 +100,9 @@ body{
 #btn-1{
   background-color: #E6533C;
 }
-/* extra work */
-div>img{
-  width: 20px;
-}
 .nav-hamburger-menu{
   display: none;
+  color: #FFFFFF;
 }
 /* banner section style start */
 .banner-container, .extra-mile-container{
