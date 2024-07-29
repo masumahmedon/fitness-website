@@ -36,19 +36,22 @@ body{
 }
 .btn-primary{
   color: #FFFFFF;
-  background-color:#E6533C ;
-  font-size: 1.25rem;
-  padding: 15px 70px;
-  border-radius: 40px;
+  background-color:#E6533C;
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding: 16px 46px;
+  border-radius: 42px;
   border: none;
+  line-height: 22px;
 }
 .btn-secondary{
   color: #FFFFFF;
   background-color: transparent;
-  font-size: 1.25rem;
-  padding: 15px 40px;
-  margin-left: 10px;
-  border-radius: 40px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding: 16px 46px;
+  margin-left: 14px;
+  border-radius: 42px;
   border: 2px solid rgb(109, 96, 96);
 }
 .title{
@@ -113,15 +116,68 @@ body{
 }
 .banner-title{
   color: #FFFFFF;
-  font-size: 4rem;
-  font-weight: 800;
+  font-size: 4.875rem;
+  font-weight: 900;
+  line-height: 100px;
 }
 .banner-description{
   color: #FFFFFF;
-  padding: 20px 0;
+  line-height: 24px;
+  padding: 28px 0;
+}
+.banner-img {
+  margin-left: 190px; 
 }
 .banner-img img{
   width: 100%;
+}
+.group{
+  position: relative;
+}
+.rectangle-1{
+  background-color: #2d2d2d;
+  color: #FFFFFF;
+  padding-top: 15px;
+  width: 195px;
+  height: 80px;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 355px;
+  left: 232px;
+}
+.rectangle-1-h4{
+  font-size: 2.5rem;
+  font-weight:900;
+  letter-spacing: 1px;
+  margin-left: 20px;
+}
+.rectangle-1-description{
+  font-size: 0.813rem;
+  letter-spacing: 1px;
+  margin-left: 20px;
+}
+.rectangle-2{
+  background-color: #2d2d2d;
+  color: #FFFFFF;
+  padding-top: 15px;
+  width: 206px;
+  height: 80px;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 54px;
+  right: 255px;
+}
+.rectangle-2-h5{
+  font-size: 1.5rem;
+  font-weight:900;
+  letter-spacing: 0.3px;
+  margin-left: 20px;
+}
+.rectangle-2-description{
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  margin-left: 20px;
+
 }
 /* banner section style end */
 /* header section style end */
