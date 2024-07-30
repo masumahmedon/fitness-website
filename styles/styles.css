@@ -164,20 +164,30 @@ body{
   height: 80px;
   border-radius: 12px;
   position: absolute;
-  bottom: 54px;
-  right: 255px;
+  bottom: 100px;
+  right: 265px;
 }
 .rectangle-2-h5{
   font-size: 1.5rem;
   font-weight:900;
   letter-spacing: 0.3px;
-  margin-left: 20px;
+  margin-left: 70px;
 }
 .rectangle-2-description{
   font-size: 1rem;
   letter-spacing: 0.5px;
-  margin-left: 20px;
-
+  margin-left: 70px;
+}
+.icon-video{
+  width: 40px;
+  height: 40px;
+  color: #FFFFFF;
+  border-radius: 40px;
+  background-color: #E6533C;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: none;
 }
 /* banner section style end */
 /* header section style end */
