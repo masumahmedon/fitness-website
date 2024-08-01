@@ -4,9 +4,6 @@
   padding: 0;
   margin: 0;
 }
-.display-hide{
-  visibility: hidden
-}
  /* font style */
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -54,6 +51,9 @@ body{
   border-radius: 42px;
   border: 2px solid rgb(109, 96, 96);
 }
+.margin-top{
+  margin-top: 80px;
+}
 .title{
   color: #FFFFFF;
   font-size: 3rem;
@@ -61,9 +61,12 @@ body{
   text-align: center;
 }
 .description{
-  color: #FFFFFF;
+  color: #6e6e6e;
   text-align: center;
   padding: 15px 0;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  font-size: 0.875rem;
 }
 /* shared/common styles end here */
 
@@ -120,8 +123,11 @@ body{
   font-weight: 900;
   line-height: 100px;
 }
+.nav-hamburger-menu{
+ 
+}
 .banner-description{
-  color: #FFFFFF;
+  color: #6e6e6e;
   line-height: 24px;
   padding: 28px 0;
 }
@@ -196,25 +202,33 @@ body{
   max-width: 540px;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 .feature-types{
   display: grid;
   grid-template-columns: repeat(4,1fr);
+  gap: 40px;
 }
 .feature-card{
   text-align: center;
 }
 .feature-card img{
-  width: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 100px;
+}
+.item-title{
+  font-size: 1.125rem;
+  font-weight: 600;
 }
 .item-description{
   margin: 10px 5px;
+  color: #6e6e6e;
 }
 /* feature section style end */
 /* extra mail section style start */
 .extra-mile-container{
-  background-color: rgb(129, 123, 115);
+  background-color: #222222;
   border-radius: 20px;
 }
 .content-extra-mail{
@@ -323,6 +337,7 @@ td{
 }
 .footer-info{
   gap: 140px;
+  display: flex;
 }
 .document{
   width: 50%;

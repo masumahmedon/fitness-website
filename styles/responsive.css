@@ -8,17 +8,29 @@
     .nav-menu{
         display: none;
     }
+    .nav-bar {
+      padding: 25px 20px;
+  }
+  .banner-content {
+    padding: 0 24px;
+}
+.banner-description {
+  padding: 20px 0;
+}
+.btn-secondary{
+  margin-left: 0;
+}
 /* banner section */
 .banner-container,
-.extra-mile-container, .team-container, .footer-info{
+.extra-mile-container, .team-container, .footer-info,.Calculator-info{
   flex-direction: column;
 }
 .banner-title{
-  font-size: 1.9rem;
-  line-height:  35px;
+  font-size: 2.25rem;
+  line-height: 35px;
 }
 .banner-img {
-  margin-left: 0; 
+  margin-left: 0;
 }
 .btn-primary{
   padding: 10px 30px;
@@ -50,8 +62,18 @@
 .feature-types, .team-person{
   grid-template-columns: repeat(1,1fr);
 }
-.item-description{
+.margin-top {
+  margin-top: 0;
+}
+.title {
   font-size: 2rem;
+}
+.item-title{
+  margin-top: 15px;
+}
+.item-description {
+  font-size: 0.875rem;
+  padding: 0 76px;
 }
 /* extra mail section */
 .extra-mile-container{
@@ -75,6 +97,9 @@
   font-size: 0.7rem;
 }
 /* team section */
+/* Calculator section */
+  
+/* Calculator section */
 .team-person{
   width: 330px;
   margin: 0 auto;
